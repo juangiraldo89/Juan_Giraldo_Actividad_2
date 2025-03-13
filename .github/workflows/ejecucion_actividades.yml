@@ -28,7 +28,7 @@ jobs:
       - name: paso4 - instalar dependencias
         run: pip install .  
       - name: paso5 - Ejecutar script de la actividad 2
-        run: python actividad_2_excel.py
+        run: python Actividad_2.py
         
 
       - name: Commit and Push changes
